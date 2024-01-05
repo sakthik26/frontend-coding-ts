@@ -8,7 +8,7 @@ import {
 import LayoutMain from '../components/layout/LayoutMain.vue'
 import Error from '../views/Error.vue'
 import Home from '../views/Home.vue'
-
+import Pokedex from '../views/Pokedex.vue'
 const mainRoutes: RouteRecordRaw[] = [
   {
     path: '/',
@@ -16,6 +16,12 @@ const mainRoutes: RouteRecordRaw[] = [
     props: true,
     component: Home,
   },
+  {
+    path: "/pokedex",
+    name: 'Pokedex',
+    props: true,
+    component: Pokedex,
+  }
 ]
 
 const routes: RouteRecordRaw[] = [
