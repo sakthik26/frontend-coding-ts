@@ -17,11 +17,11 @@ const mainRoutes: RouteRecordRaw[] = [
     component: Home,
   },
   {
-    path: "/pokedex",
+    path: '/pokedex',
     name: 'Pokedex',
     props: true,
     component: Pokedex,
-  }
+  },
 ]
 
 const routes: RouteRecordRaw[] = [
